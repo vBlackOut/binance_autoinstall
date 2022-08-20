@@ -33,10 +33,8 @@ def install():
       line = proc.stdout.readline()
       if not line:
         break
-      #the real code does filtering here
       print(line.rstrip())
-    # one_line_output = p.stdout.readline()
-    # print(one_line_output)
+
 
 sha256sums = requests.get('https://ftp.binance.com/electron-desktop/linux/production/binance-amd64-linux-deb-sha256.txt').text
 last_version = last_version('https://github.com/binance/desktop')
