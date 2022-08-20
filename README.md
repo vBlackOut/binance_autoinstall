@@ -1,4 +1,4 @@
-# binance_autoinstall
+# binance auto install last version
 script python for install dpkg binance desktop for linux
 
 # for use install requirements
